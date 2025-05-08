@@ -1,5 +1,5 @@
 using LinearAlgebra
-
+#ibrtdfch 
 n = 3
 # Supposons que g = ∇f(x)
 g = ones(n)
