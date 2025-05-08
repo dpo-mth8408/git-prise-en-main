@@ -1,6 +1,6 @@
 using LinearAlgebra
 
-n = 3
+n = 5 #3
 # Supposons que g = ∇f(x)
 g = ones(n)
 # Supposons que H = ∇²f(x)
