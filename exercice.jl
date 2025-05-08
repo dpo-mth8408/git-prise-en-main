@@ -12,6 +12,7 @@ H = [6.0 2.0 3.0;
 
 ### votre code ici ; ne rien modifier d'autre
 d = rand(n)
+# This is a random modification
 ###
 
 # vérification
