@@ -10,9 +10,10 @@ H = [6.0 2.0 3.0;
 
 # Sur base de H et g, calculer la direction de Newton d
 
-### votre code ici ; ne rien modifier d'autre
-d = rand(n)
-###
+######## votre code ici ; ne rien modifier d'autre
+d = -H \ g  # Solution du système H * d = -g
+println("La solution du système est : ", d) 
+########
 
 # vérification
 using Test
