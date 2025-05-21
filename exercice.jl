@@ -9,9 +9,9 @@ H = [6.0 2.0 3.0;
      3.0 3.5 8.0]
 
 # Sur base de H et g, calculer la direction de Newton d
-
+d = -H \ g
 ### votre code ici ; ne rien modifier d'autre
-d = rand(n)
+##d = rand(n)
 ###
 
 # vérification
