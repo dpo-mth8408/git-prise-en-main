@@ -1,5 +1,4 @@
 using LinearAlgebra
-
 n = 3
 # Supposons que g = ∇f(x)
 g = ones(n)
@@ -11,7 +10,8 @@ H = [6.0 2.0 3.0;
 # Sur base de H et g, calculer la direction de Newton d
 
 ### votre code ici ; ne rien modifier d'autre
-d = rand(n)
+d = - H \ g
+
 ###
 
 # vérification
